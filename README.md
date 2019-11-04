@@ -25,14 +25,15 @@ In this challenge, create a web API around the following resources: `Projects` a
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 - [ ] Mention two parts of Express that you learned about this week.
+  Serverside routing & middleware
 
-- [ ] Describe Middleware?
+- [ ] Describe Middleware? Are functions that can be used to do checks before execution
 
-- [ ] Describe a Resource?
+- [ ] Describe a Resource? A resource is anything provided to the client from the server
 
-- [ ] What can the API return to help clients know if a request was successful?
+- [ ] What can the API return to help clients know if a request was successful? status codes
 
-- [ ] How can we partition our application into sub-applications?
+- [ ] How can we partition our application into sub-applications? you can branch endpoints into their own routing using express.Router. You can also breakdown other code such as middleware into their own folders, so its more organized.
 
 ## Project Setup
 
